@@ -1,6 +1,6 @@
 ﻿namespace PrototypePattern;
 
-public interface IMyCloneable
+public interface IMyCloneable<T>
 {
-    object Copy();
+    T Copy();
 }
